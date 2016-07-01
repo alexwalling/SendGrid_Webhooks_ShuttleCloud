@@ -1,0 +1,6 @@
+{
+  "name": "SendGrid_Webhooks_ShuttleCloud",
+  "description": "A node webapp to listen for SendGrid Webhooks and post data to Google Drive",
+  "repository": "https://github.com/alexwalling/SendGrid_Webhooks_ShuttleCloud",
+  "image": "heroku/nodejs"
+}

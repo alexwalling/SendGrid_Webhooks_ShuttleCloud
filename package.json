@@ -1,0 +1,28 @@
+{
+  "name": "SendGrid_Webhooks_ShuttleCloud",
+  "version": "0.0.1",
+  "description": "A node app that listens for SendGrid Event Webhooks",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+		"body-parser": "1.15.1",
+		"edit-google-spreadsheet": "0.2.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexwalling/SendGrid_Webhooks_ShuttleCloud"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
